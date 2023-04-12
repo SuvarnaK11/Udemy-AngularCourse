@@ -5,9 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './successAlert/successAlert.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 @NgModule({
-  declarations: [AppComponent, WarningAlertComponent, SuccessAlertComponent],
+  declarations: [AppComponent, WarningAlertComponent, SuccessAlertComponent, DataBindingComponent],
   imports: [
     BrowserModule,
     FormsModule,
